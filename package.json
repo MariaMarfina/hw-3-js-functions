@@ -1,0 +1,22 @@
+{
+  "name": "hw-3-js-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaMarfina/hw-3-js-functions.git"
+  },
+  "author": "Maria Marfina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaMarfina/hw-3-js-functions/issues"
+  },
+  "homepage": "https://github.com/MariaMarfina/hw-3-js-functions#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
