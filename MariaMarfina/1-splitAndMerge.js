@@ -8,11 +8,9 @@
 function splitAndMerge(str, sp) {
   var wordsFromStr = str.split(' ');
   var separatedWords = [];
-
   for (var i = 0; i < wordsFromStr.length; i++) {
     separatedWords.push(wordsFromStr[i].split('').join(sp));
   }
-
   return separatedWords.join(' ');
 }
 
