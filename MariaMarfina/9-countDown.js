@@ -12,6 +12,4 @@ function countDown(num) {
   }, 1000);
 }
 
-countDown(3)
-
-module.exports = countDown;
+countDown(3); // 3 2 1 0
