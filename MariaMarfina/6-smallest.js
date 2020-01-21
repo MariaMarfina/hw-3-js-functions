@@ -1,17 +1,11 @@
 // Write smallest function that returns the smallest number passed like a argument.
 
 function smallest() {
-  if (arguments.length === 0) {
-    return 'you should pass some numbers to get the answer';
+  if (!arguments.length) {
+    return 'No args';
   }
 
-  var smallestNum = arguments[0];
-  for (var i = 1; i < arguments.length; i++) {
-    if (arguments[i] < smallestNum) {
-      smallestNum = arguments[i];
-    }
-  }
-  return smallestNum;
+  return Math.min.apply(null, [].slice.call(arguments));
 }
 
 module.exports = smallest;

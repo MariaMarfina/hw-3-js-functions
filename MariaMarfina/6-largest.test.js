@@ -1,7 +1,7 @@
 var largest = require('./6-largest');
 
 test('properly works without arguments', function() {
-  expect(largest()).toBe('you should pass some numbers to get the answer');
+  expect(largest()).toBe('No args');
 })
 
 test('properly returns the largest number passed like a argument', function() {
